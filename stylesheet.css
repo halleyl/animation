@@ -1,7 +1,8 @@
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#c7f3ff), color-stop(#aad8e5), to(#60a1b3)) fixed;
   background: linear-gradient(#c7f3ff, #aad8e5, #60a1b3) fixed;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%; }
 
 article {
   z-index: 12;
