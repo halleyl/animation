@@ -677,9 +677,11 @@ article {
             transform: translateX(0);
     visibility: visible; } }
 @media (max-width: 500px) {
-  span {
-    height: 0;
-    visibility: hidden; }
+  button {
+    height: 2.6rem; }
+    button span {
+      height: 0;
+      visibility: hidden; }
 
   #dog {
     left: 35%; }
