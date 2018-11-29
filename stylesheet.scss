@@ -73,7 +73,7 @@ article {
   left: 43%;
   height: 25%;
   z-index: 5;
-  content: url("dog1.png");
+  content: url("dog1.svg");
 }
 
 .dogwalk {
@@ -195,11 +195,12 @@ article {
 }
 
 #hills1f {
-  height: 100%;
+  height: 75%;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
+  max-width: 100%;
   z-index: 4;
   background: url("hills1.svg");
   background-repeat: no-repeat;
@@ -217,6 +218,7 @@ article {
   bottom: 0;
   left: 100vw;
   width: 100%;
+  max-width: 100%;
   z-index: 4;
   background: url("hills1.svg");
   background-repeat: no-repeat;
@@ -234,6 +236,7 @@ article {
   bottom: 0;
   left: 0;
   width: 100%;
+  max-width: 100%;
   z-index: 3;
   background: url("hills2.svg");
   background-repeat: no-repeat;
@@ -246,11 +249,12 @@ article {
 }
 
 #hills2b {
-  height: 100%;
+  height: 75%;
   position: absolute;
   bottom: 0;
   left: 100vw;
   width: 100%;
+  max-width: 100%;
   z-index: 3;
   background: url("hills2tree.svg");
   background-repeat: no-repeat;
@@ -421,9 +425,10 @@ article {
   }
 }
 
-@media(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #hills1f {
     width: 200%;
+    max-width: 200%;
   }
 
   .h1fscroll {
@@ -432,6 +437,7 @@ article {
 
   #hills2f {
     width: 200%;
+    max-width: 200%;
     left: 200vw;
   }
 
@@ -441,6 +447,7 @@ article {
 
   #hills1b {
     width: 200%;
+    max-width: 200%;
   }
 
   .h1bscroll {
@@ -449,6 +456,7 @@ article {
 
   #hills2b {
     width: 200%;
+    max-width: 200%;
     left: 200vw;
   }
 
@@ -539,6 +547,7 @@ article {
   }
   #hills1f {
     width: 300%;
+    max-width: 300%;
   }
 
   .h1fscroll {
@@ -547,6 +556,7 @@ article {
 
   #hills2f {
     width: 300%;
+    max-width: 300%;
     left: 300vw;
   }
 
@@ -556,6 +566,7 @@ article {
 
   #hills1b {
     width: 300%;
+    max-width: 300%;
   }
 
   .h1bscroll {
@@ -564,6 +575,7 @@ article {
 
   #hills2b {
     width: 300%;
+    max-width: 300%;
     left: 300vw;
   }
 
