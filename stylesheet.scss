@@ -427,6 +427,9 @@ article {
 }
 
 @media screen and (max-width: 1024px) {
+  body {
+    overflow-y: hidden;
+  }
   #hills1f {
     width: 200%;
     max-width: 200%;
