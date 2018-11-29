@@ -1,7 +1,13 @@
+// TODO
+// 1. Preload svg images (for dog esp)
+// 2. Fix gradient y-tiling on mobile
+
 body {
-  background: linear-gradient(#c7f3ff, #aad8e5, #60a1b3) fixed;
+  background: linear-gradient(#c7f3ff, #aad8e5, #60a1b3) no-repeat fixed;
   overflow: hidden;
   height: 100%;
+  min-height: 100%;
+  background-size: cover;
 }
 
 article {
